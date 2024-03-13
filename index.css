@@ -1,0 +1,195 @@
+/* ==================================================================================================================== */
+/* Reset HTML */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+/* ==================================================================================================================== */
+/* Background Image */
+body{
+background-color: black;
+}
+
+/* ==================================================================================================================== */
+/* Fake Header */
+.fakeheader{
+    max-height: 50px;
+}
+
+/* Header */
+.header{
+    z-index: 1;
+    position:fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 40px;
+    color:white;
+    border-bottom: solid 5px #FFCC00;
+    background-color: black;
+    border-width: 5px;
+    white-space: pre;
+}
+
+.header-logo{
+    overflow: hidden;
+    max-height: 30px;
+    filter:grayscale(100);
+    padding-bottom: 10px;
+}
+
+.header-logo:hover{
+    overflow: hidden;
+    filter:none;
+}
+
+.header-menu{
+    line-height: 5px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    white-space: pre;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    gap: 40px;
+    font-family: "Anton", sans-serif;    
+}
+
+.header-text{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header-text:hover{
+    color: #FFCC00;
+}
+
+/* ==================================================================================================================== */
+/* Main Content */
+.main-content{
+    display:flex;
+    flex-wrap: nowrap;
+    overflow:hidden;
+    border-bottom: 5px solid #FFCC00;
+    margin-bottom: 10px;
+}
+
+/* ==================================================================================================================== */
+/* Left Side */
+.container-left{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width:650px;
+}
+
+.left-content{
+    position: relative;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-logo{
+    max-height: 400px;
+    max-width: 400px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-left: 200px;
+}
+
+.instagram-logo{
+    padding-left: 120px;
+    max-width: 490px;
+    padding-bottom: 5px;
+}
+
+.circle-logo{
+    padding-left: 55px;
+    width: 550px;
+    max-width: 600px;
+    padding-bottom: 35px;
+}
+
+.media-kit{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    line-height: 100px;
+    color:#FFCC00;
+    font-family: "Anton", sans-serif; 
+    font-size: 130px;
+}
+
+.media-kit2{
+    line-height: 150px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 240px;
+    padding-bottom: 250px;
+    color:#FFCC00;
+    font-family: "Anton", sans-serif; 
+    font-size: 130px;
+}
+
+.name{
+    height: auto;
+    padding-top: 150px;
+    padding-left: 105px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-h1{
+    line-height: 400px;
+    color:#FFCC00;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 550px;
+}
+
+/* Hidding .name if its smaller than 1450px for better experience in mobile */
+@media only screen and (max-width: 1430px) {
+    .name {
+        display: none;
+    }
+}
+
+
+/* ==================================================================================================================== */
+/* Right Side */
+.container-right{
+    height:auto;
+    width:auto;
+}
+
+.photo-1{
+    object-fit: cover;
+    height:100%;
+    width: 100%;
+}
+
+/* ==================================================================================================================== */
+/* Footer */
+.footer{
+    border-top: solid 5px #FFCC00;
+    padding: 5px;
+    color:white;
+}
+
+
