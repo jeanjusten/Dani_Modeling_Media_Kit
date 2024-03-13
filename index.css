@@ -576,7 +576,24 @@ background-color: black;
 
 .age{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.agetext{
+    color:white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size:40px;
+    font-weight: 800;
+    font-style: bold;
+}
+
+.ageline{
+    border-bottom: 5px solid #FFCC00;
+    max-width: 250px;
+    min-width: 200px;
 }
 
 .agenumber{
