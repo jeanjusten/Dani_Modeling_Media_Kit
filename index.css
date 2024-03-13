@@ -75,12 +75,24 @@ background-color: black;
     color: #FFCC00;
 }
 
+@media (max-width: 560px) {
+    .header-text {
+        font-size: 12px;
+        font-weight: 50;
+    }
+
+    .header-logo {
+        max-height: 25px;
+    }
+}
+
 /* ==================================================================================================================== */
-/* Main Content */
+/* 1st Page */
 .main-content{
     display:flex;
     flex-wrap: nowrap;
     overflow:hidden;
+    justify-content: space-around;
     border-bottom: 5px solid #FFCC00;
     margin-bottom: 10px;
 }
@@ -170,6 +182,58 @@ background-color: black;
     }
 }
 
+@media (max-width:560px) {
+    .main-logo{
+        max-height: 40%;
+        max-width: 40%;
+        margin: 0;
+        padding: 0px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .left-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .instagram-logo{
+        max-height: 65%;
+        max-width: 65%;
+        margin: 0px;
+        padding:0px;
+        padding-bottom: 10px;
+    }
+
+    .circle-logo{
+        max-height: 70%;
+        max-width: 70%;
+        margin: 0;
+        padding: 0px;
+        padding-bottom: 40px;
+    }
+
+    .media-kit {
+        font-size: 55px;
+        line-height: 0px;
+        margin: 0;
+        padding:0px;
+    }
+
+    .media-kit2{
+        font-size: 55px;
+        line-height: 105px;
+        margin: 0;
+        padding:0px;
+    }
+
+    .photo-1{
+        display:none;
+    }
+}
 
 /* ==================================================================================================================== */
 /* Right Side */
@@ -182,6 +246,339 @@ background-color: black;
     object-fit: cover;
     height:100%;
     width: 100%;
+}
+
+/* ==================================================================================================================== */
+/* Page 2 */
+/* 1st Part */
+.page2{
+    max-width: 100vh;
+}
+
+.title-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+
+}
+
+.title-top2{
+    padding-top: 50px;
+    color:#FFCC00;
+    font-family: "Bebas Neue", sans-serif;
+    font-size:70px;
+    font-weight: 800;
+    font-style: bold;
+    line-height: 55px;
+}
+
+@media (max-width:790px) {
+    .title-top2{
+        text-align: center;
+        line-height: 55px;
+        }
+    }
+
+@media (max-width:560px) {
+    .title-top2{
+        align-self: center;
+        text-align: center;
+        font-size: 50px;
+        line-height: 45px;
+        }
+    }
+
+.instagram-logo2{
+    max-height: 250px;
+    max-width: 150px;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color:#FFCC00;
+    font-family: "Bebas Neue", sans-serif;
+    font-size:170px;
+    font-weight: 800;
+    font-style: bold;
+    line-height: 35px;
+}
+
+@media (max-width:760px) {
+.aboutme{
+    text-align: center;
+    font-size: 120px;
+    line-height: 95px;
+    }
+}
+
+@media (max-width:560px) {
+    .aboutme{
+        text-align: center;
+        font-size: 120px;
+        line-height: 95px;
+        }
+}
+
+.paragraph{
+    max-width: 700px;
+    font-family: arial;
+    font-weight: 150;
+    color:white;
+    font-size: 20px;
+}
+
+.partners{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+}
+
+.partner-img{
+    filter:grayscale(100);
+    padding-top: 15px;
+    max-height: 50px;
+}
+
+.partner-img:hover{
+    filter:none;
+    transform: scale(1.05);
+    padding-top: 15px;
+    max-height: 50px;
+}
+
+/* 2nd Part */
+.part2{
+    position: relative;
+    display: inline-block;
+
+}
+
+.image-container.statistics {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.photo2{
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+
+.statistics{
+    padding-left: 25px;
+    position: absolute;
+    height:auto;
+    top:64%;
+    color:#FFCC00;
+    font-size: 200px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+}
+
+@media (max-width:1060px) {
+    .statistics{
+        font-size: 140px;
+        top:48%;
+        }
+}
+
+@media (max-width:860px) {
+    .statistics{
+        font-size: 120px;
+        top:34%;
+        }
+}
+    
+@media (max-width:580px) {
+    .statistics{
+        font-size: 80px;
+        top:38%;
+        }
+}
+
+@media (max-width:460px) {
+    .statistics{
+        font-size: 60px;
+        top:44%;
+    }
+}
+
+/* 3rd Part */
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 205px;
+}
+
+.followers{
+    color: white;
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    line-height: 60px;
+}
+
+.range{
+    color: white;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+}
+
+.colortext{
+    color:#FFCC00;
+    font-size: 120px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+}
+
+.colortext:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width:560px) {
+    .followers, .range{
+        font-size: 30px;
+        line-height: 38px;
+    }
+}
+
+.container3{
+    max-width: 100%;
+    padding-top:50px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.public{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.colortext2{
+    color:#FFCC00;
+    font-family: "Bebas Neue", sans-serif;
+    font-size:100px;
+    font-weight: 800;
+    font-style: bold;
+}
+
+.textc1{
+    color:white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size:60px;
+    font-weight: 800;
+    font-style: bold;
+}
+
+.iconm{
+    max-height: 100px;
+}
+
+.iconm:hover{
+    transform: scale(1.05);
+}
+
+.graph{
+    height:auto;
+    padding-left: 15px;
+}
+
+.graph:hover{
+    transform: scale(1.05);
+}
+
+.man, .woman{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.container4{
+    max-width: 100%;
+    padding-top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.age{
+    display: flex;
+    flex-direction: row;
+}
+
+.agenumber{
+    color:white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size:40px;
+    font-weight: 800;
+    font-style: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.graphbar:hover{
+    transform: scale(1.05);
 }
 
 /* ==================================================================================================================== */
