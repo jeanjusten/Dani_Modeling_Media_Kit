@@ -716,6 +716,7 @@ background-color: black;
     margin-right: 150px;
     display: flex;
     flex-direction: column;
+    align-content: center;
     gap: 60px;
 }
 
@@ -728,9 +729,9 @@ background-color: black;
 
 .services, .packages{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     vertical-align: center;
     justify-content: space-between;
     align-items: flex-start;
@@ -744,6 +745,18 @@ background-color: black;
 }
 
 @media (max-width: 500px) {
+    .price1, .price2 {
+        font-size:10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .h2price {
+        font-size:10px;
+    }
+}
+
+@media (max-width: 400px) {
     .h2price {
         font-size:10px;
     }
@@ -761,16 +774,10 @@ background-color: black;
     }
 }
 
-@media (max-width: 500px) {
-    .priceinfo {
-        font-size:10px;
-    }
-}
-
 .h2price{
     margin-left: 10px;
     color:#FFCC00;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .packh1{
@@ -796,18 +803,16 @@ background-color: black;
     }
 }
 
-.acessmedia{
-    margin-top: 50px;
+.containercontact{
+    margin-top: 80px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 55px;
+    flex-direction: column;
+    align-content: left;
 }
 
-.portfolio{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
+.acessmedia{
+    margin-top: 50px;
+    margin-bottom: 55px;
 }
 
 .portfolioline{
@@ -825,7 +830,6 @@ background-color: black;
 }
 
 .portfoliol{
-    margin-right: 15px;
     width:auto;
     max-width: 190px;
     padding-bottom: 5px;
