@@ -1,6 +1,6 @@
 <!--Title Image-->
 ![images/danimodeling_webkit_capa.gif](https://github.com/jeanjusten/Dani_Modeling_Media_Kit/blob/main/images/danimodeling_webkit_capa.gif?raw=true)
-# :computer: Influencer Web-kit
+# :computer: Dani Modeling Influencer Web-kit
   <p>
   This web-kit made for a influencer is used to present the client's stats in social medias for potential partnerships.
   It's a simple and short website with responsive design.
