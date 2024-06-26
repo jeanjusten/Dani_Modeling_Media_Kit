@@ -10,7 +10,7 @@
 ## :large_orange_diamond: Table of Content
 
 - [1. Details](#large_orange_diamond-details)
-  - [1.1 Hover Detail](#arrow_forward-hover-detail)
+  - [1.1 Detail](#arrow_forward-detail)
 - [2. Tools and Technologies](#large_orange_diamond-tools-and-technologies)
   - [2.1 Stacks Used](#arrow_forward-stacks-used)
 - [3. Result](#large_orange_diamond-result)
@@ -21,7 +21,7 @@
 
 <!--Details-->
 ## :large_orange_diamond: Details
-### :arrow_forward: Hover Detail
+### :arrow_forward: Detail
 
 <!--Tools Used-->
 ## :large_orange_diamond: Tools and Technologies
