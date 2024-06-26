@@ -1,5 +1,5 @@
 <!--Title Image-->
-![]()
+![images/danimodeling_webkit_capa.gif](https://github.com/jeanjusten/Dani_Modeling_Media_Kit/blob/main/images/danimodeling_webkit_capa.gif?raw=true)
 # :computer: Influencer Web-kit
   <p>
   This web-kit made for a influencer is used to present the client's stats in social medias for potential partnerships.
@@ -8,9 +8,11 @@
 
 <!--Menu-->
 ## :large_orange_diamond: Table of Content
-
-- [1. Details](#large_orange_diamond-details)
-  - [1.1 Detail](#arrow_forward-detail)
+- [1. Features](#large_orange_diamond-features)
+  - [1.1 Responsiveness](#arrow_forward-responsiveness)
+    - [1.1.1 Mobile](#small_red_triangle_down-mobile)
+    - [1.1.2 Tablet](#small_red_triangle_down-tablet)
+    - [1.1.3 Desktop](#small_red_triangle_down-desktop)
 - [2. Tools and Technologies](#large_orange_diamond-tools-and-technologies)
   - [2.1 Stacks Used](#arrow_forward-stacks-used)
 - [3. Result](#large_orange_diamond-result)
@@ -20,13 +22,29 @@
   - [4.2 Licenses](#arrow_forward-licenses)
 
 <!--Details-->
-## :large_orange_diamond: Details
-### :arrow_forward: Detail
+## :large_orange_diamond: Features
+### :arrow_forward: Responsiveness
+<p>
+The website have a set of breakpoints of media queries to add responsiveness for the user. 
+The main breakpoints are for Desktop, Tablet and Mobile.  
+</p>
+
+#### :small_red_triangle_down: Mobile
+![images/danimodeling_webkit_celular.gif](https://github.com/jeanjusten/Dani_Modeling_Media_Kit/blob/main/images/danimodeling_webkit_celular.gif?raw=true)
+<p>- Mobile Breakpoint</p>
+
+#### :small_red_triangle_down: Tablet
+![images/danimodeling_webkit_tablet.gif](https://github.com/jeanjusten/Dani_Modeling_Media_Kit/blob/main/images/danimodeling_webkit_tablet.gif?raw=true)
+<p>- Tablet Breakpoint</p>
+
+#### :small_red_triangle_down: Desktop
+![images/danimodeling_webkit_desktop.gif](https://github.com/jeanjusten/Dani_Modeling_Media_Kit/blob/main/images/danimodeling_webkit_desktop.gif?raw=true)
+<p>- Desktop Breakpoint</p>
 
 <!--Tools Used-->
 ## :large_orange_diamond: Tools and Technologies
 ### :arrow_forward: Stacks Used
-[![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
 
 <!--Result-->
 ## :large_orange_diamond: Result
