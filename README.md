@@ -8,20 +8,36 @@
 
 <!--Menu-->
 ## :large_orange_diamond: Table of Content
-- [1. Features](#large_orange_diamond-features)
-  - [1.1 Responsiveness](#arrow_forward-responsiveness)
-    - [1.1.1 Mobile](#small_red_triangle_down-mobile)
-    - [1.1.2 Tablet](#small_red_triangle_down-tablet)
-    - [1.1.3 Desktop](#small_red_triangle_down-desktop)
-- [2. Tools and Technologies](#large_orange_diamond-tools-and-technologies)
-  - [2.1 Stacks Used](#arrow_forward-stacks-used)
-- [3. Result](#large_orange_diamond-result)
-  - [3.1 Deploy on Vercel](#arrow_forward-vercel)
-- [4. Etcetera](#large_orange_diamond-etcetera)
-  - [4.1 About](#arrow_forward-about)
-  - [4.2 Licenses](#arrow_forward-licenses)
+- [1. Patch Notes](#large_orange_diamond-patch-notes)
+  - [1.1 Latest Update](#pushpin-latest-update)
+  - [1.2 Future Updates](#bookmark_tabs-future-updates)
+- [2. Features](#large_orange_diamond-features)
+  - [2.1 Responsiveness](#arrow_forward-responsiveness)
+    - [2.1.1 Mobile](#small_red_triangle_down-mobile)
+    - [2.1.2 Tablet](#small_red_triangle_down-tablet)
+    - [2.1.3 Desktop](#small_red_triangle_down-desktop)
+- [3. Tools and Technologies](#large_orange_diamond-tools-and-technologies)
+  - [3.1 Stacks Used](#arrow_forward-stacks-used)
+- [4. Result](#large_orange_diamond-result)
+  - [4.1 Deploy on Vercel](#arrow_forward-vercel)
+- [5. Etcetera](#large_orange_diamond-etcetera)
+  - [5.1 About](#arrow_forward-about)
+  - [5.2 Licenses](#arrow_forward-licenses)
 
-<!--Details-->
+<!--Patch Notes-->
+## :large_orange_diamond: Patch Notes
+### :pushpin: Latest Update
+<strong></strong>
+
+### :bookmark_tabs: Future Updates
+<p>
+Here stand my planned updates for this website:
+
+- Add web responsiveness
+- Improve overall design.
+</p>
+
+<!--Features-->
 ## :large_orange_diamond: Features
 ### :arrow_forward: Responsiveness
 <p>
